@@ -46,6 +46,10 @@ button:hover{
     visibility: visible;
 }
 
-
-
-
+@media screen and (max-width:600px) {
+    main{
+        width: 100%;
+        font-size: 20px;
+    }
+    
+}
