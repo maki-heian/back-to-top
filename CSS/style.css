@@ -1,0 +1,51 @@
+.container{
+    height: 2000px;
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.middle{
+    line-height: 2000px;
+}
+
+
+p{
+    font-size: 30px;
+    text-align: center;
+}
+
+
+button{
+    position: fixed;
+    font-size: 20px;
+    bottom: 20px;
+    width: 80px;
+    height: 80px;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 50%;
+    background-color: lightcyan;
+    border: 3px;
+    
+
+} 
+
+button:hover{
+    cursor: pointer;
+}
+
+
+
+/* jsで使うクラスを追加する */
+.is-active{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+
